@@ -32,9 +32,9 @@ function Result({url,score,name}:{
       >
        {
         score>=5&&(
-            <div className='text-lg'> You're a true <span className='font-semibold text-red-600'>{name||''}</span> superfan! Scoring <span className='font-semibold text-blue-600'>{score}/7 </span>shows you know their music like no other!</div>
+            <div className='text-lg'> You're a true <span className='font-semibold text-red-600'>{name||''}</span> superfan! Scoring <span className='font-semibold text-blue-600'>{score}/8 </span>shows you know their music like no other!</div>
         )||(
-          <div className='text-lg'> Nice try, fan-in-training! You scored <span className='text-blue-600 font-semibold'>{score}/7 {' '}</span>  Stick around, and you'll be singing    <span className='font-semibold text-red-600'>{name||''}</span> hits like a pro!</div>
+          <div className='text-lg'> Nice try, fan-in-training! You scored <span className='text-blue-600 font-semibold'>{score}/8 {' '}</span>  Stick around, and you'll be singing    <span className='font-semibold text-red-600'>{name||''}</span> hits like a pro!</div>
         )
        }
       </CardItem>
