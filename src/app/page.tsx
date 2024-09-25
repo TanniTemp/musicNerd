@@ -60,8 +60,8 @@ export default function Home() {
   }, [searchQuery,token]);
 
   return (
-    <div className="w-[100vw] tracking-wider flex h-[100vh] bg-[#141A1E] overflow-hidden">
-      <div className="mx-auto flex items-center gap-3 flex-col py-10">
+    <div className="w-[100vw] tracking-wider flex dark:text-white h-[100vh] bg-[#141A1E]">
+      <div className="mx-auto flex items-center gap-3 flex-col p-10">
         <div>
           <Image
             src="/music.svg"
@@ -186,7 +186,7 @@ export default function Home() {
 
         <div className="flex items-center gap-4 w-full p-6">
 
-        <Link  href={'https://github.com/TanniTemp/musicNerd'} className=" flex gap-3 items-center">
+        <Link  href={''} className=" flex gap-3 items-center">
         <Image src={"/git.svg"} alt={""} height={25} width={25}  /> 
         
         <span>Don't forget to give it a star on GitHub! 🌟</span>
