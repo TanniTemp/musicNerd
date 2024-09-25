@@ -60,7 +60,7 @@ export default function Home() {
   }, [searchQuery,token]);
 
   return (
-    <div className="w-[100vw] tracking-wider flex h-[100vh] bg-[#141A1E]">
+    <div className="w-[100vw] tracking-wider flex h-[100vh] bg-[#141A1E] overflow-hidden">
       <div className="mx-auto flex items-center gap-3 flex-col p-10">
         <div>
           <Image

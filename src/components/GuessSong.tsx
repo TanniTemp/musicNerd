@@ -170,7 +170,7 @@ const GuessSong: React.FC<GuessSongProps> = ({
               onClick={() => handleGuess(option.name)}
               className={cn('flex flex-col items-center justify-center gap-2', color)}
             >
-              <Image src={option.url} alt={option.name} height={100} width={100} />
+              <Image src={option.url} alt={option.name} height={80} width={80} />
               <h1>{trimName(option.name, 10)}</h1>
             </button>
           ) : (
