@@ -186,7 +186,7 @@ export default function Home() {
 
         <div className="flex items-center gap-4 w-full p-6">
 
-        <Link  href={''} className=" flex gap-3 items-center">
+        <Link  href={'https://github.com/TanniTemp/musicNerd'} className=" flex gap-3 items-center">
         <Image src={"/git.svg"} alt={""} height={25} width={25}  /> 
         
         <span>Don't forget to give it a star on GitHub! 🌟</span>

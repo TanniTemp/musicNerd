@@ -15,7 +15,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: "Music Nerd",
+=======
+ title: "Music Nerd",
+>>>>>>> ad9b6c3c66d610121c8decf3f7a170a42e6406f9
   description: "Guess song game site",
 };
 
