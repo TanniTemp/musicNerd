@@ -5,7 +5,7 @@ import axios from "axios";
 import {Dancing_Script, Oswald} from 'next/font/google';
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 
 const oswald = Oswald({ subsets: ['latin'], weight: "700" });
 const Dancing = Dancing_Script({ subsets: ['latin'], weight: "700" });
@@ -94,6 +94,7 @@ function Page() {
 
   
   return (
+    <Suspense fallback={<div>Loading...</div>}>
     <div className="w-[100vw] tracking-wider flex h-[100vh] bg-[#141A1E]">
       
       <div className="mx-auto flex items-center gap-3 flex-col p-10 ">
@@ -114,6 +115,7 @@ function Page() {
     
       </div>
     </div>
+    </Suspense>
   );
 }
 
