@@ -104,7 +104,7 @@ function InnerPage() {
 
   return (
     <div className="w-[100vw] tracking-wider flex h-[100vh] bg-[#141A1E]">
-      <div className="mx-auto flex items-center gap-3 flex-col p-10">
+      {/* <div className="mx-auto flex items-center gap-3 flex-col py-10"> */}
         <div className="flex gap-2 text-yellow-400">
           <Image src={"/music.svg"} alt={""} height={100} width={140} />
           by<span className={Dancing.className}> Tanishk</span>
@@ -128,7 +128,8 @@ function InnerPage() {
             score={score}
           />
         </div>
-      </div>
+        <div className='flex items-center justify-center pt-4'>{score}/8</div>
+      
     </div>
   );
 }

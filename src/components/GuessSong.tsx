@@ -193,7 +193,7 @@ const GuessSong: React.FC<GuessSongProps> = ({
            <Button size={'lg'} onClick={handleNextQuestion}>
             Next
           </Button>
-           <div className='flex items-center justify-center pt-4'>{score}/7</div>
+          
          </div>
         )}
       </div>
