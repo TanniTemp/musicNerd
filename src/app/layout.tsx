@@ -16,8 +16,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
- title: "Music Nerd",
-  description: "Guess song game site",
+title: "Music Nerd",
+  description: "Guess the song game site where you can test your music knowledge.",
+  keywords: ["music quiz", "guess the song", "track recognition", "Music Nerd", "music trivia"],
 };
 
 export default function RootLayout({
